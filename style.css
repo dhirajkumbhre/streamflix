@@ -5,9 +5,10 @@
 }
 
 body {
-  background-image: url(assets/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(assets/movie-poster-background-p5qblffj7cvswl5g.jpg);
   background-size: cover;
   background-position:center;
+  height: 400px;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -58,8 +59,8 @@ nav {
 
 .language-btn {
   background: transparent;
-  border: 1px solid #170000;
-  color: #ffffff;
+  border: 1px solid #b5b5b5;
+  color: #dedede;
   padding: 5px 15px;
   border-radius: 4px;
   margin-right: 15px;
@@ -216,6 +217,7 @@ nav {
 
 /* FOOTER */
 .footer {
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
   padding: 50px 12%;
   color: #777;
 }
