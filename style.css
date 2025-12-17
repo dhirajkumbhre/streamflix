@@ -5,7 +5,9 @@
 }
 
 body {
-  background: #000;
+  background-image: url(assets/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+  background-size: cover;
+  background-position:center;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -56,8 +58,8 @@ nav {
 
 .language-btn {
   background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #170000;
+  color: #ffffff;
   padding: 5px 15px;
   border-radius: 4px;
   margin-right: 15px;
@@ -67,7 +69,8 @@ nav {
 }
 
 .language-btn option[value=""] {
-  color: #aaa;
+  color: #000000;
+
 }
 
 .signin-btn {
