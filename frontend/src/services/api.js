@@ -5,8 +5,14 @@ export async function apiGet(path) {
   const res = await fetch(`${API}${path}`, {
     headers: { Authorization: token },
   });
+
+
+  
   return res.json();
 }
+
+
+
 
 export async function apiPost(path, body = {}) {
   const token = localStorage.getItem("token");
